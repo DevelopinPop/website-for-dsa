@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body style="
+    background: linear-gradient(315deg, #002060 10%, #370060 70%);
+    color: white;
+    margin:0;
+">
+
+    <div class="leftsidebar sticky navbar" id="leftsidebar" style="width: 200px; height:100vh; display: block; top: 0; text-align: left; padding: 30px; text-overflow: ellipsis; white-space: nowrap;">
+        <div class="leftsidebarheader">
+            <div>
+                <div><a href="/" class="navlinks">DevelopinPop</a></div>
+                <div>> /randomstuff</div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="fancytransition">
+            <img src="../attatchments/sectionbreaker.png" style="width:400px; height:auto; padding-bottom: 10px; padding-top: 10px;" class="fancytransition">
+            <h1 class="fancytransition" style="padding:0px; padding-top: 0px; padding-bottom: 0px;">best fit line doc</h1>
+            <p class="fancytransition" style="margin:0px;">16 July 2024</p>
+            <div class="fancytransition" style="padding-bottom:30px; margin-top:50px;">
+                
+            </div>
+            <div class="highlight" style="margin:0px;">
+                <h3 class="fancytransition" style="font-weight: 500; margin:0px;">Pros: </h3>
+                <div class="fancytransition" style="margin: 0px;">> You do the best-fit first try</div> 
+                <div class="fancytransition" >> The best-fit line is ALWAYS accurate</div>
+                <div class="fancytransition" >> No wasting time erasing if you get it wrong</div>
+                <h3 class="fancytransition" style="font-weight: 500; margin:0px;">Con </h3>
+                <div class="fancytransition" style="margin: 0px;">> Only slightly slower than anyhow drawing best-fit line (First try only)</div> 
+            </div>
+        </div>
+        <div class="fancytransition">
+            <p style="font-weight:500; font-size:30px; padding-top:50px;" class="fancytransition">the thing</p>
+            <p class="fancytransition">To draw any line, you need at least two points on the line. Theoretically, if you have two points of a perfect best fit line, you can draw a perfect best-fit. This doccument will show you how to get two such points so you can join them together: the y-intercept of the best-fit and the midpoint of all the points</p>
+            <p style="font-weight:500; font-size:27px; padding-top:50px;" class="fancytransition" id="best">y-int (+gradient)</p>
+            <p style="font-weight:500; font-size:24px; padding-top:0px;" class="fancytransition">Classicwiz (New calc)</p>
+            <p class="fancytransition">Go to Menu > 3 (Statistics) > 2 (y=a+bx) > plot your points in the table provided (make sure the freq column just says 1) > OPTN > Regression Calc</p>
+            <p class="fancytransition">You will be given three values: a, b, r (y = a+bx), ignore r</p>
+            <p class="fancytransition">The a is a y-intercept so one point of the best fit line is (0, a)</p>
+            <p class="fancytransition">The b is the expected gradient so take note of this to check your answer later</p>
+            <p style="font-weight:500; font-size:24px; padding-top:20px;" class="fancytransition">Natural VPAM (Old calc)</p>
+            <p class="fancytransition">Go to Menu > 2 (Stat) > 2 (A+Bx) > plot your points in the table provided (make sure the freq column just says 1) > AC > Shift > 1 > 5 (Reg)</p>
+            <p class="fancytransition">From here, press:</p>
+            <p class="fancytransition">1 (A): The y-coordinate of your first point, which will be (0, A)</p>
+            <p class="fancytransition">2 (B): The (accurate) gradient of your graph, which you can take note to check your answer later</p>
+            <p style="font-weight:500; font-size:24px; padding-top:20px;" class="fancytransition" id="mid">midpoint of all the points</p>
+            <p class="fancytransition">It's as simple as it sounds. Just find the midpoint of all the points; this will be your second point</p>
+            <p class="fancytransition">Plot and join these two points together to get a perfect best-fit</p>
+        </div>
+    </div>
+    <div style="padding-top: 80px;">
+        <div class="footer">
+            <div style="margin-left:350px; padding-top: 80px;" class="fancytransition">
+                <div>© DevelopinPop 2024</div>
+                <div>All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
