@@ -4,4 +4,4 @@ Website made with <3 from scratch by [@DevelopinPop](https://developinpop.github
 
 Credits in index.html
 
-To be honest, the html code is very badly written. This is literally my first time working on a website. Please do not copy unless you know HTML!
+The html code is very badly written. I forgot how half the stuff worked. Please don't try to fix it though :>
