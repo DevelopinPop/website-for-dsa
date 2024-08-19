@@ -1,6 +1,6 @@
 # DevelopinPop's Website
 
-Website made from scratch by [@DevelopinPop](https://developinpop.github.io/website-for-dsa)
+Website made with <3 from scratch by [@DevelopinPop](https://developinpop.github.io/website-for-dsa)
 
 Credits in index.html
 
